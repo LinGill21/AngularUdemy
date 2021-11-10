@@ -1,4 +1,7 @@
-<button class="btn btn-primary"[disabled]="allowNewServer">Add Server</button>
-<p [innerText]="allowNewServer"></p> <!-- string interpretation used for printing output-->
-<app-server></app-server>            <!-- property binding used for changing an element-->
+<button class="btn btn-primary"
+[disabled]="!allowNewServer"
+(click)="onCreateServer()">Add Server</button>
+<!--<p [innerText]="allowNewServer"></p>  string interpretation used for printing output--> <!-- property binding used for changing an element-->
+<p>{{serverCreationStatus}}</p>
+<app-server></app-server>           
 <app-server></app-server>
