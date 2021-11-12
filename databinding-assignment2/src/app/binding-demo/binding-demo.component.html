@@ -1,7 +1,12 @@
 <p>Enter a username</p>
 <input
-type="text"
-class="form-control"
-[(ngModel)]="username"
+    type="text"
+    class="form-control"
+    [(ngModel)]="username"
 >
 <p>{{username}}</p>
+<button
+    class="btn btn-primary"
+    [disabled]=checkUsername()
+    (click)=reset()
+    >Reset</button>

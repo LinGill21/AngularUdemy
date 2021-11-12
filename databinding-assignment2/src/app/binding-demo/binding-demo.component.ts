@@ -11,5 +11,13 @@ export class BindingDemoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  checkUsername(){
+    if (this.username.length ==0){
+      return true;
+    }
+    return false;
+  }
+  reset(){
+    this.username=''
+  }
 }
