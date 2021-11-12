@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./binding-demo.component.css']
 })
 export class BindingDemoComponent implements OnInit {
-
+  username=''
   constructor() { }
 
   ngOnInit(): void {
