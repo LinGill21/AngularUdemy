@@ -14,6 +14,7 @@
     [disabled]="!allowNewServer"
     (click)="onCreateServer()">Add Server</button>
 <!--<p [innerText]="allowNewServer"></p>  string interpretation used for printing output--> <!-- property binding used for changing an element-->
-<p>{{serverCreationStatus}}</p>
+<!--<p>{{serverCreationStatus}}</p>-->
+<p *ngIf="serverCreated">{{serverCreationStatus}}</p>
 <app-server></app-server>           
 <app-server></app-server>
