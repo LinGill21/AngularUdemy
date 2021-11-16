@@ -7,12 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectiveAssignmentComponent implements OnInit {
   displayDetails = false;
-  
+  log =[0];
+
   constructor() { }
 
   ngOnInit(): void {
   }
   toggleDetails(){
+    this.log.push(this.log.length);
     if(this.displayDetails===true){
       this.displayDetails =false;
     }
