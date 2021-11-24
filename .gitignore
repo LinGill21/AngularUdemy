@@ -1,3 +1,6 @@
 #ignoring assignments since they will only be on the assignment branch
 /databinding-assignment2
 /Directives-assignment3
+
+#ignoring the project since it will only be on the project branch
+/AngularProject
