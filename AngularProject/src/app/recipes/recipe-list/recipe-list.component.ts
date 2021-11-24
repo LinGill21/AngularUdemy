@@ -8,7 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes:Recipe[]=[
-    new Recipe('A test Recipe','This is a test','https://github.com/LinGill21/AngularUdemy/tree/Project/AngularProject/recipeCard.jpg')
+    new Recipe('A test Recipe','This is a test','https://github.com/LinGill21/AngularUdemy/raw/Project/AngularProject/recipeCard.jpg')
   ];
 
   constructor() { }
