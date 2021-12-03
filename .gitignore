@@ -1,3 +1,6 @@
 #ignoring assignments since they will only be on the assignment branch
 /databinding-assignment2
 /Directives-assignment3
+
+#ignoring this since it will only be in the main branch
+/secondProject
