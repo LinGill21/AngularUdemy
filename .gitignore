@@ -1,2 +1,5 @@
 #ignoring the project since it will only be on the project branch
 /AngularProject
+
+#ignoring this since it will only be on the main branch
+/Secondproject
